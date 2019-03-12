@@ -1,0 +1,18 @@
+backend:
+  name: github
+  repo: zilindeng/gatsby-netlify-boilerplate
+
+media_folder: static/assets
+public_folder: /assets
+
+# publish_mode: editorial_workflow
+
+collections:
+  - name: blog
+    label: Blog
+    folder: src/content/blog
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: title, label: Title }
+      - { name: thumbnail, label: Thumbnail, widget: image,}
