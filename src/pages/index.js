@@ -79,6 +79,7 @@ export const pageQuery = graphql`
             path
             gridColumn
             gridRow
+            title
             thumbnail {
               childImageSharp {
                 fluid(quality: 100, maxWidth: 1920, cropFocus: CENTER) {
