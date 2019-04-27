@@ -17,10 +17,12 @@ exports.createPages = ({ actions, graphql }) => {
           node {
             frontmatter {
               path
+              gridColumn
+              gridRow
               title
               thumbnail {
                 childImageSharp {
-                  fluid(maxWidth: 1080) {
+                  fluid(maxWidth: 1920) {
                     src
                     srcSet
                     aspectRatio

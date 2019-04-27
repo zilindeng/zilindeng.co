@@ -26,7 +26,7 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
         </Helmet>
-        <div>Gatsby Netlify Boilerplate</div>
+        <div></div>
           {children}
       </>
     )}

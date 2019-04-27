@@ -11,17 +11,17 @@
 @opac-34: 0.34;
 @opac-13: 0.13;
 // Text Color
-@text-100: rgba(0,0,0,1);
-@text-87: rgba(0,0,0,0.87); // Default
+@text-100: rgba(222,222,222,1); // Default
+@text-87: rgba(0,0,0,0.87); 
 @text-50: rgba(0,0,0,0.50);
 @text-34: rgba(0,0,0,0.34);
 @text-13: rgba(0,0,0,0.13);
 // Background Color
-@bg-default: #fff;
+@bg-default: #000000;
 // Media Queries
-@mobile: ~"only screen and (min-width: 0px) and (max-width: 414px)";
-@mobile-horizontal: ~"only screen and (min-width: 415px) and (max-width: 823px) and (max-height: 414px)";
-@tablet: ~"only screen and (min-width: 415px) and (max-width: 1024px)";
+@mobile: ~"only screen and (min-width: 0px) and (max-width: 425px)";
+@mobile-horizontal: ~"only screen and (min-width: 426px) and (max-width: 823px) and (max-height: 414px)";
+@tablet: ~"only screen and (min-width: 426px) and (max-width: 1024px)";
 @desktop: ~"only screen and (min-width: 1025px) and (max-width: 2560px)";
 // Type Scale
 @small: 1;
@@ -64,7 +64,7 @@
 
 html {
    font-size: @base-mobile;
-   font-family: "system-ui", sans-serif;
+   font-family: "Arial Unicode MS", sans-serif;
    -ms-text-size-adjust: 100%;
    -webkit-text-size-adjust: 100%;
    -webkit-font-smoothing: antialiased;
@@ -78,7 +78,7 @@ html {
 }
 
 body {
-   color: @text-87;
+   color: @text-100;
    background-color: @bg-default;
    margin: 0;
 }

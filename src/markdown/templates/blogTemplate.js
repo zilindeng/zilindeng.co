@@ -27,7 +27,6 @@ export const pageQuery = graphql `
       html
       frontmatter {
         path
-        title
         thumbnail {
           childImageSharp {
             fluid(maxWidth: 1080, quality: 100) {
