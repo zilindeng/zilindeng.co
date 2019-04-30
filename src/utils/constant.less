@@ -12,8 +12,8 @@
 @opac-13: 0.13;
 // Text Color
 @text-100: rgba(222,222,222,1); // Default
-@text-87: rgba(0,0,0,0.87); 
-@text-50: rgba(0,0,0,0.50);
+@text-87: rgba(222,222,222,0.87); 
+@text-50: rgba(222,222,222,0.50);
 @text-34: rgba(0,0,0,0.34);
 @text-13: rgba(0,0,0,0.13);
 // Background Color
@@ -183,4 +183,10 @@ sup {
 
 hr {
    opacity: @opac-34;
+}
+
+a {
+   text-decoration: none;
+   color: @text-87;
+   border-bottom: 1px dotted @text-50;
 }

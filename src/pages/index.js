@@ -50,12 +50,13 @@ const IndexPage = ({
       <div className={style.fuck}>
         <div className={style.header}>Contact</div>
         <div className={style.listItem}>
-          <div className={style.link}>Email</div>
-          <div className={style.link}>+1 (647) 639–9979</div>
+          <div className={style.link}><a href="mailto: zillydeng@gmail.com?body=Hi Zilin,">Email</a></div>
+          <div className={style.link}><a href="tel:647-639-9979">+1 (647) 639–9979</a></div>
           <br />
         </div>
         <div className={style.listItem}>
-          <div className={style.link}>Instagram</div>
+        <div className={style.link}><a target="_blank" rel="noopener noreferrer" href="https://www.are.na/zilin-deng">Are.na</a></div>
+          <div className={style.link}><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/zilindeng/">Instagram</a></div>
         </div>
       </div>
     </div>
