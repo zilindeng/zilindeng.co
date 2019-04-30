@@ -1,7 +1,7 @@
 ---
 path: /02-ysdn-info
+title: A Grave Site
 thumbnail: /assets/ysdn.info.jpg
-gridColumn: 1/4
-gridRow: 5
+gridArea: 4 / 1 / 2 / 4
 ---
 

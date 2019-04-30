@@ -1,6 +1,6 @@
 module.exports = {
    siteMetadata: {
-      title: 'gatsby-netlify-boilerplate',
+      title: 'Zilin Deng',
       description: 'a simple boilerplate for starting projects'
    },
    plugins: [
@@ -15,7 +15,7 @@ module.exports = {
       {
          resolve: `gatsby-plugin-manifest`,
          options: {
-            name: 'gatsby-netlify-boilerplate',
+            name: 'Zilin Deng',
             short_name: 'boilerplate',
             start_url: '/',
             background_color: '#ffffff',

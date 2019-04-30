@@ -38,12 +38,26 @@
 }
 
 .listItem {
-    margin-bottom: 2%;
-    margin-left: 8%;
-    text-indent: -8%;
+    margin-bottom: 6px;
+    margin-left: 16px;
+    text-indent: -16px;
 }
 
 .fuck:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    @media @mobile {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    @media @tablet {
+        grid-column: span 6;
+    }
+}
+
+.fuck:nth-child(2) {
     grid-column-start: 4;
 
     @media @mobile {
@@ -56,7 +70,7 @@
 }
 
 .fuck {
-    font-size: 14px;
+    font-size: 16px;
     @media @mobile {
         margin-top: 6%;
     }

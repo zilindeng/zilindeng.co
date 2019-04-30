@@ -15,6 +15,5 @@ collections:
     fields:
       - { name: path, label: Path }
       - { name: title, label: Title, required: false }
-      - { name: thumbnail, label: Thumbnail, widget: image,}
-      - { name: gridColumn, label: Grid Column }
-      - { name: gridRow, label: Grid Row }
+      - { name: thumbnail, label: Thumbnail, widget: image}
+      - { name: gridArea, label: Grid Area }

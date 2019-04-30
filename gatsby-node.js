@@ -17,8 +17,7 @@ exports.createPages = ({ actions, graphql }) => {
           node {
             frontmatter {
               path
-              gridColumn
-              gridRow
+              gridArea
               title
               thumbnail {
                 childImageSharp {
