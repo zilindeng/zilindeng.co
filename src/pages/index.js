@@ -21,7 +21,7 @@ const IndexPage = ({
     <div className={style.fuck}>
         <div className={style.header}>ZILIN DENG </div>
         <div>
-           Mom, I'm on the internet!
+           
         </div>
       </div>
 
