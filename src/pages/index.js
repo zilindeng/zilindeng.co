@@ -19,9 +19,9 @@ const IndexPage = ({
     <div className={style.overlay}></div>
     <div className={style.grid}>
     <div className={style.fuck}>
-        <div className={style.header}>ZILIN DENG</div>
+        <div className={style.header}>ZILIN DENG </div>
         <div>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis vestibulum mauris, at feugiat massa placerat eget. Nullam egestas ut purus lacinia aliquam. Suspendisse sagittis feugiat lacus ac molestie. Vivamus semper massa sit amet nunc commodo, eget tempor lectus tristique. Praesent tempus eget metus vitae lobortis.
+           Mom, I'm on the internet!
         </div>
       </div>
 
@@ -87,6 +87,7 @@ export const pageQuery = graphql`
           frontmatter {
             path
             gridArea
+            collab
             title
             thumbnail {
               childImageSharp {

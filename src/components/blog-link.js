@@ -5,10 +5,16 @@ import style from "./blog-link.module.less"
 
 const BlogLink = ({ post }) => (
      <div className={style.container} style={{ gridArea: `${post.frontmatter.gridArea}` }}>
+            <Img fluid={post.frontmatter.thumbnail.childImageSharp.fluid}/>
             {post.frontmatter.title === "" ? null : (
             <div className={style.title}>{post.frontmatter.title}</div>
             )}
-            <Img fluid={post.frontmatter.thumbnail.childImageSharp.fluid}/>
+
+            {post.frontmatter.collab === null ? null : (
+            <div className={style.collab}>w/ {post.frontmatter.collab}</div>
+            )}
+
+
       </div>
 )
 

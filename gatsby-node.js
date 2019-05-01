@@ -18,6 +18,7 @@ exports.createPages = ({ actions, graphql }) => {
             frontmatter {
               path
               gridArea
+              collab
               title
               thumbnail {
                 childImageSharp {
