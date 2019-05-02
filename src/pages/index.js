@@ -21,7 +21,8 @@ const IndexPage = ({
     <div className={style.fuck}>
         <div className={style.header}>ZILIN DENG </div>
         <div>
-           
+          A designer and front-end developer currently dwelling amidst the bleak, dystopic suburbs of Markham.
+          He views his creative endeavour as a form of escape from nowness, where in response—gives birth to new realities.        
         </div>
       </div>
 
