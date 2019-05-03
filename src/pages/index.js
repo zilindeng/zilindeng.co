@@ -31,7 +31,7 @@ const IndexPage = ({
         <div className={style.listItem}>
           Product Design <br />
           Mother Co <br />
-          August 2018—Present
+          August 2018—March 2019
         </div>
         <div className={style.listItem}>
           Product Design Intern <br />
