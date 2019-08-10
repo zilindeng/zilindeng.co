@@ -29,6 +29,11 @@ const IndexPage = ({
       <div className={style.fuck}>
         <div className={style.header}>Experience</div>
         <div className={style.listItem}>
+          Graphic Design Intern <br />
+          Concrete <br />
+          June 2019—Present
+        </div>
+        <div className={style.listItem}>
           Product Design <br />
           Mother Co <br />
           August 2018—March 2019
